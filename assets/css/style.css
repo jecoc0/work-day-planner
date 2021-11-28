@@ -69,3 +69,30 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.col-2 {
+  justify-content: center;
+  align-items: center;
+}
+
+.col-1 {
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img {
+  height: 25px;
+  color: white
+}
+
+.color-1{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
